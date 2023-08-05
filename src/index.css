@@ -1,8 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap");
 
 .active {
   @apply font-medium tracking-wide text-black transition-colors duration-200 hover:text-sky-400;
