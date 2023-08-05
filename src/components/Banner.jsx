@@ -4,10 +4,13 @@ import BGImg from '../assets/BG.png'
 
 const Banner = () => {
   return (
-    <div   style={{
+    <div style={{
         backgroundImage: `url(${BGImg})`,
-        height: "696px", backgroundRepeat: "no-repeat",
-      }}>
+        height: "696px",
+        backgroundRepeat: "no-repeat",
+        backgroundSize : "cover"
+      }}
+      >
         <div className="container mx-auto flex flex-col lg:flex-row justify-between py-20 px-3 lg:pt-36 " >
       {/* Left side start  */}
       <div>
