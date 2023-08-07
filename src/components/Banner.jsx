@@ -14,7 +14,7 @@ const Banner = () => {
         <div className="container mx-auto flex flex-col lg:flex-row justify-between py-20 px-3 lg:pt-36 " >
       {/* Left side start  */}
       <div>
-        <span className="flex bg-[#F7F1FF] w-[258px] py-3  text-center rounded-3xl">
+        <span className="flex bg-[#F7F1FF] w-[270px] py-3  text-center rounded-3xl">
           <img src={star} alt="star" className="px-4 object-contain"/>
           <h1 className="text-base font-Montserrat font-semibold text-[#722ED1] pr-3">v3.1 released. <span className="border-b border-[#722ED1]">Learn more</span></h1>
         </span>

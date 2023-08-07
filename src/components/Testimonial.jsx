@@ -33,7 +33,7 @@ const Testimonial = () => {
         backgroundRepeat: "no-repeat",
         backgroundSize : "cover"
       }}>
-      <div className="container mx-auto py-56">
+      <div className="container mx-auto py-56 px-3">
         {/* Slider Start  */}
         <Flicking circular={true} plugins={plugins}>
           <div className="text-center">
@@ -88,12 +88,12 @@ const Testimonial = () => {
         {/* Brand Start  */}
         <div>
           <hr className="my-8 p-3 bg-[#DEC9FA}" />
-          <div className="flex flex-col lg:flex-row justify-between">
-            <img src={icon1} alt="" className="object-cover" />
-            <img src={icon2} alt="" className="object-cover" />
-            <img src={icon3} alt="" className="object-cover" />
-            <img src={icon4} alt="" className="object-cover" />
-            <img src={icon5} alt="" className="object-cover" />
+          <div className="grid gap-3 grid-cols-2 md:grid-cols-3 lg:grid-cols-5  ">
+            <img src={icon1} alt="" className="   lg:object-contain" />
+            <img src={icon2} alt="" className="   lg:object-contain" />
+            <img src={icon3} alt="" className="   lg:object-contain" />
+            <img src={icon4} alt="" className="   lg:object-contain" />
+            <img src={icon5} alt="" className="   lg:object-contain" />
           </div>
         </div>
         {/* Brand End  */}
