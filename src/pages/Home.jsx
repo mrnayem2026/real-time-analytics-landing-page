@@ -4,6 +4,7 @@ import WhyQubly from '../components/WhyQubly';
 import ForProductTeams from '../components/ForProductTeams';
 import ForEngineeringTeams from '../components/ForEngineeringTeams';
 import Testimonial from '../components/Testimonial';
+import TrustedBy from '../components/TrustedBy';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <ForProductTeams></ForProductTeams>
             <ForEngineeringTeams></ForEngineeringTeams>
             <Testimonial></Testimonial>
+            <TrustedBy></TrustedBy>
         </div>
     );
 };
