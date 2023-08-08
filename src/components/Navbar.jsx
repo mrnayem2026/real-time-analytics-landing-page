@@ -37,14 +37,6 @@ const Navbar = () => {
                 Contact Us
               </NavLink>
             </li>
-            <li className="ml-10 ">
-              <NavLink
-                to="/"
-                className={({ isActive }) => (isActive ? "active" : "default")}
-              >
-                Login
-              </NavLink>
-            </li>
           </ul>
         </div>
         <div className="ml-10 ">
